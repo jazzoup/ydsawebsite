@@ -14,7 +14,9 @@ html {
 body {
   margin: 0;
 }
-
+@media screen and (min-width: 600px) {
+  margin: 20% 0 20% 0;
+}
 /** Add the correct display in IE 9-. */
 article,
 aside,
@@ -170,7 +172,7 @@ button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; /* 2 */
+  -webkit-appearence: button; /* 2 */
 }
 
 /** Remove the inner border and padding in Firefox. */
@@ -226,7 +228,7 @@ textarea {
 
 /** 1. Correct the odd appearance in Chrome and Safari. 2. Correct the outline style in Safari. */
 [type="search"] {
-  -webkit-appearance: textfield; /* 1 */
+  -webkit-appearence: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
@@ -286,9 +288,9 @@ html {
 }
 
 body {
-  background: #fff;
-  color: #3b4351;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  background: white;
+  color: #231F20;
+  font-family: Helvetica, sans-serif;
   font-size: .8rem;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
