@@ -14,9 +14,6 @@ html {
 body {
   margin: 0;
 }
-@media screen and (min-width: 600px) {
-  margin: 20% 0 20% 0;
-}
 /** Add the correct display in IE 9-. */
 article,
 aside,
@@ -2041,12 +2038,14 @@ video.video-responsive::before {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: #c9c9c9;
 }
 
 .navbar .navbar-section {
   align-items: center;
   display: -ms-flexbox;
   display: flex;
+  flex-flow: wrap;
   -ms-flex: 1 0 0;
   flex: 1 0 0; 
   -ms-flex-align: center;
