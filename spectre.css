@@ -2045,6 +2045,7 @@ video.video-responsive::before {
   align-items: center;
   display: -ms-flexbox;
   display: flex;
+  flex-flow: wrap;
   -ms-flex: 1 0 0;
   flex: 1 0 0; 
   -ms-flex-align: center;
