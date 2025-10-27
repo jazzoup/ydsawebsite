@@ -14,6 +14,7 @@ html {
 body {
   margin: 0;
 }
+
 /** Add the correct display in IE 9-. */
 article,
 aside,
@@ -169,7 +170,7 @@ button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearence: button; /* 2 */
+  -webkit-appearance: button; /* 2 */
 }
 
 /** Remove the inner border and padding in Firefox. */
@@ -225,7 +226,7 @@ textarea {
 
 /** 1. Correct the odd appearance in Chrome and Safari. 2. Correct the outline style in Safari. */
 [type="search"] {
-  -webkit-appearence: textfield; /* 1 */
+  -webkit-appearance: textfield; /* 1 */
   outline-offset: -2px; /* 2 */
 }
 
@@ -285,9 +286,9 @@ html {
 }
 
 body {
-  background: white;
-  color: #231F20;
-  font-family: Helvetica, sans-serif;
+  background: #fff;
+  color: #3b4351;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-size: .8rem;
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
@@ -2038,14 +2039,12 @@ video.video-responsive::before {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #c9c9c9;
 }
 
 .navbar .navbar-section {
   align-items: center;
   display: -ms-flexbox;
   display: flex;
-  flex-flow: wrap;
   -ms-flex: 1 0 0;
   flex: 1 0 0; 
   -ms-flex-align: center;
