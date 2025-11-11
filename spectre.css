@@ -9,7 +9,7 @@ html {
   -ms-text-size-adjust: 100%; /* 3 */
 }
 
-@media only screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   html {
     margin: 0 15% 0 15%;
   }
@@ -20,9 +20,9 @@ html {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   html {
-    margin: 0 2% 0 2%;
+    margin: 0 4% 0 4%;
   }
   h1, strong {
     display: flex;
@@ -311,8 +311,8 @@ html {
 }
 
 body {
-  background: #fff;
-  color: #3b4351;
+  background: white;
+  color: #3A3335;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   font-size: .8rem;
   overflow-x: hidden;
@@ -320,7 +320,7 @@ body {
 }
 
 a {
-  color: #5755d9;
+  color: #ED6E6E;
   outline: none;
   text-decoration: none;
 }
@@ -333,12 +333,12 @@ a:focus,
 a:hover,
 a:active,
 a.active {
-  color: #302ecd;
+  color: #E31C1C;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #807fe2;
+  color: #C81919;
 }
 
 h1,
@@ -367,6 +367,7 @@ h1,
 .h1 {
   font-size: 2rem;
   margin-bottom: 0;
+  margin-top: .6rem;
 }
 
 h2,
@@ -722,14 +723,14 @@ html:lang(ko),
 .btn.btn-link {
   background: transparent;
   border-color: transparent;
-  color: #5755d9;
+  color: #E31C1C;
 }
 
 .btn.btn-link:focus,
 .btn.btn-link:hover,
 .btn.btn-link:active,
 .btn.btn-link.active {
-  color: #302ecd;
+  color: #ED6E6E;
 }
 
 .btn.btn-sm {
@@ -2066,6 +2067,7 @@ video.video-responsive::before {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: .6rem;
 }
 
 .navbar .navbar-section {
@@ -2538,7 +2540,7 @@ summary.accordion-header::-webkit-details-marker {
 .menu .menu-item > a:focus,
 .menu .menu-item > a:hover {
   background: #f1f1fc;
-  color: #5755d9;
+  color: #E31C1C;
 }
 
 .menu .menu-item > a:active,
