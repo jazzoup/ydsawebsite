@@ -1587,6 +1587,10 @@ video.video-responsive::before {
   margin-right: -.4rem;
 }
 
+.my-full {
+  height: 80vh;        /* full viewport height */
+}
+
 .cols.col-gapless,
 .columns.col-gapless {
   margin-left: 0;
