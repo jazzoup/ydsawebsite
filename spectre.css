@@ -32,6 +32,9 @@ html {
   #instagram-embed {
     display: none;
   }
+  iframe {
+    display: none;
+  }
 }
 
 /* Sections ========================================================================== */
